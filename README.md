@@ -1,3 +1,5 @@
-# Lama Dev Chat App Starter template
+# Realtime Chat App
+This is the unique & Official README for a tatoNaranjo's Project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> [!NOTE]
+> Project Under Construction
