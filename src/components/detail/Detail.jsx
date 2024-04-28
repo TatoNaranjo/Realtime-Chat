@@ -2,7 +2,7 @@ import "./detail.css"
 
 const Detail = () => {
     return (
-        <div className="flex-[1]">
+        <div className="flex-[1] detail">
         <div className="user px-[20px] py-[30px] flex flex-col items-center gap-[15px] border-[#dddddd35] border-b-[1px] solid">
             <img src="./avatar.png" alt="" />
             <h2>Hikaru Nakamura</h2>

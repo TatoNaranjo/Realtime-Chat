@@ -1,10 +1,12 @@
 import { useState } from "react";
 import "./chatList.css";
+import AddUser from "./addUser/AddUser";
 
 const chatList = () => {
   const [addMode, setAddMode] = useState(false);
+  
   return (
-    <div className="flex-[1] overflow-scroll">
+    <div className="chatList flex-[1] overflow-scroll">
       <div className="search flex items-center gap-5 p-5">
         <div className="searchBar flex-[1] bg-lime-900/50 items-center gap-5 flex rounded-[10px] p-[10px]">
           <img className="w-5 h-5" src="./search.png" alt="" />
@@ -46,6 +48,8 @@ const chatList = () => {
           <p>I'm Out Now</p>
         </div>
       </div>
+
+      {addMode && <AddUser/>}
     </div>
 
 

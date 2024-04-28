@@ -17,7 +17,7 @@ const Chat = () => {
   };
 
   return (
-    <div className="flex flex-col flex-[2] solid border-l-[1px] border-r-[1px] border-[#dddddd35] h-[100%]">
+    <div className="chat flex flex-col flex-[2] solid border-l-[1px] border-r-[1px] border-[#dddddd35] h-[100%]">
       <div className="top p-5 flex items-center justify-between border-b-[1px] border-[#dddddd35]">
         <div className="user flex items-center gap-5">
           <img
