@@ -10,10 +10,38 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 body{
   background-image: url("/bg.png");
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  scrollbar-width: thin;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  
+  background: rgb(54 83 20);
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  
+  background: rgb(54 83 20);
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  
+  background: rgb(54 83 20);
+  
 }
