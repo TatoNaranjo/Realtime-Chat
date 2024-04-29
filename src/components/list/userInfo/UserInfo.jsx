@@ -1,3 +1,4 @@
+import { auth } from "../../../lib/firebase";
 import { useUserStore } from "../../../lib/userStore";
 
 const UserInfo = () => {
@@ -17,6 +18,8 @@ const UserInfo = () => {
                 <img className = "w-5 h-5 cursor-pointer" src="./more.png" alt="" />
                 <img className = "w-5 h-5 cursor-pointer" src="./video.png" alt="" />
                 <img className = "w-5 h-5 cursor-pointer" src="./edit.png" alt="" />
+                <img className = "w-5 h-5 text-white cursor-pointer" src="./logout.svg" onClick={()=>auth.signOut()}/>
+
             </div>
         </div>
 
