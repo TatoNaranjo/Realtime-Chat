@@ -120,7 +120,7 @@ const Chat = () => {
           <div className="texts flex flex-col gap-[5px]">
             <span className="text-[18px] font-bold">{user?.username}</span>
             <p className="text-[14px] font-[300] text-[#e7e7e7]">
-              Lorem ipsum dolor sit amet.
+              But i'm a Creep, I'm a Weirdo...
             </p>
           </div>
         </div>
