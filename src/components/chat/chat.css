@@ -44,4 +44,17 @@
         font-size: 13px;
     }
 }
+
+.sendButton{
+    &:disabled{
+        background-color: rgba(5,46,22, 0.5);
+        cursor: not-allowed;
+    }
+}
+input{
+    &:disabled{
+        background-color: rgba(5,46,22, 0.5);
+        cursor: not-allowed;
+    }
+}
 }
