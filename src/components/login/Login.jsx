@@ -49,7 +49,7 @@ const Login = () => {
         toast.success("Account Created Successfully, you can Login Now")
 
       } catch (err){
-        console.log(err)
+        
         toast.error(err.message)
       } finally {
         setLoading(false)
@@ -67,7 +67,7 @@ const Login = () => {
       try {
         await signInWithEmailAndPassword(auth, email,password)
       } catch (err){
-        console.log(err)
+       
         toast.error(err.message)
       }
       finally{
