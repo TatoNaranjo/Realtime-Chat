@@ -12,6 +12,13 @@
 ## What is Realtime Chat?
 Realtime chat is a project made with **React**, having as database **Firestore**, Google's non-relational database, and using **Firebase** as an authenticator method for user registration. It owes its name to the way in which the data is updated in real time thanks to Firebase. This was a project made by TatoNaranjo to learn by creating tools with applications that you could find in real life.
 
+## Demo
+You can try out a live demo of the Realtime Chat app [here](https://reactchat-33ca8.web.app/).
+
+**Send me a Message!**
+
+**My Username: `TatoNaranjo`**
+
 ## Installation and Usage
 To run this project locally, follow these steps:
 
